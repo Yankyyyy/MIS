@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Project",
+  "enabled": 1,
+  "modified": "2024-12-05 10:14:37.616976",
+  "module": "MIS",
+  "name": "Project Period",
+  "script": "frappe.ui.form.on('Project', {\n    refresh(frm) {\n\t    if(frm.doc.expected_start_date && frm.doc.expected_end_date){\n    \t    var project_period = frappe.datetime.get_day_diff(frm.doc.expected_end_date, frm.doc.expected_start_date);\n    \t\tcur_frm.set_value('custom_project_period', project_period);\n\t    }\n\t    if(frm.doc.expected_start_date){\n    \t    var period_elapsed = frappe.datetime.get_day_diff(frappe.datetime.nowdate(), frm.doc.expected_start_date);\n    \t\tcur_frm.set_value('custom_period_elapsed', period_elapsed);\n\t    }\n\t}\n});",
+  "view": "Form"
+ }
+]
