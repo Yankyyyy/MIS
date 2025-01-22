@@ -1,0 +1,33 @@
+{
+ "chart_name": "Task Progress",
+ "chart_type": "Report",
+ "creation": "2025-01-22 12:35:14.940319",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{\"project\":\"PROJ-0001\",\"is_milestone\":\"0\"}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-01-22 12:35:14.940319",
+ "modified_by": "Administrator",
+ "module": "MIS",
+ "name": "Task Progress",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Task Summary",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "subject",
+ "y_axis": [
+  {
+   "color": "#B4CD29",
+   "y_field": "progress"
+  }
+ ]
+}

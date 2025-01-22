@@ -1,0 +1,36 @@
+{
+ "cards": [
+  {
+   "card": "Total Incoming Bills"
+  },
+  {
+   "card": "Total Outgoing Bills"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Project Summary",
+   "width": "Half"
+  },
+  {
+   "chart": "Task Status Chart",
+   "width": "Half"
+  },
+  {
+   "chart": "Task Progress Chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-01-22 12:21:27.096719",
+ "dashboard_name": "Project Summary",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-01-22 12:21:27.096719",
+ "modified_by": "Administrator",
+ "module": "MIS",
+ "name": "Project Summary",
+ "owner": "Administrator"
+}
